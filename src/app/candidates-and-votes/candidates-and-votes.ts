@@ -6,11 +6,11 @@ import { ModuleManager } from 'igniteui-webcomponents-core';
 import { ifDefined } from 'lit/directives/if-defined.js';
 import { Subject, takeUntil } from 'rxjs';
 import 'igniteui-webcomponents-grids/grids/combined.js';
-import { VoteCountResult } from '../models/USElections/vote-count-result';
-import { Candidate } from '../models/USElections/candidate';
 import { VoteResult } from '../models/USElections/vote-result';
-import { CandidateVoteResult } from '../models/USElections/candidate-vote-result';
 import { StateVoteResult } from '../models/USElections/state-vote-result';
+import { Candidate } from '../models/USElections/candidate';
+import { CandidateVoteResult } from '../models/USElections/candidate-vote-result';
+import { VoteCountResult } from '../models/USElections/vote-count-result';
 import { stateService } from '../services/State-service';
 import { uSElectionsService } from '../services/USElections-service';
 
