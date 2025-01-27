@@ -1,5 +1,5 @@
 {
-  "name": "uselections4",
+  "name": "uselections5",
   "version": "0.0.0",
   "private": true,
   "description": "WebComponents project for Ignite UI CLI",
@@ -10,7 +10,7 @@
   "type": "module",
   "exports": {
     ".": "./dist/src/index.js",
-    "./uselections4.js": "./dist/src/uselections4.js"
+    "./uselections5.js": "./dist/src/uselections5.js"
   },
   "scripts": {
     "start": "tsc && concurrently -k -r \"tsc --watch\" \"wds\"",
